@@ -1,0 +1,28 @@
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+	.row {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.navbar {
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 20px;
+	}
+
+	.logo {
+		margin-bottom: 20px;
+	}
+
+	.nav-links {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.nav-links li {
+		margin: 10px 0;
+	}
+}

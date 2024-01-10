@@ -1,0 +1,182 @@
+/* POPPINS FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #ffffffe7;
+}
+body {
+	background-image: linear-gradient(hsla(233, 14%, 11%, 0.5), rgb(0, 0, 0)),
+		url('./earth_moon_transit_121207_3840x2400.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+input:focus {
+	outline: none;
+	color: blacks;
+}
+/* navbar */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	color: #ffffffe7;
+
+	padding: 10px;
+}
+
+.logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-links li {
+	margin: 0 10px;
+	list-style: none;
+}
+
+.nav-links a {
+	color: #ffffffe7;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+	color: #f778ff;
+}
+.nav-links li {
+	margin-left: 60px;
+}
+
+/* ISRo centers section */
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.centres {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	margin-top: 20px;
+}
+.form {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.card {
+	box-shadow: rgba(21, 17, 227, 0.354) 0px 5px 15px;
+	background-color: rgb(15, 14, 15);
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.card h2 {
+	font-size: 20px;
+	color: #f778ff;
+	margin-top: 0;
+}
+
+.card p {
+	margin: 0;
+}
+
+/* spacecraft section */
+#spacecrafts {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	flex-direction: column;
+	align-items: center;
+}
+
+#spacecrafts h2 {
+	height: 5rem;
+	margin: 10px;
+	font-size: 1.1rem;
+	padding: 15px;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: rgba(21, 17, 227, 0.354) 0px 5px 15px;
+	background-color: rgb(15, 14, 15);
+	padding: 20px;
+	border-radius: 5px;
+}
+
+/* Launcher section */
+#launchers-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#launchers-container div {
+	font-size: 1.1rem;
+	padding: 15px;
+	text-align: center;
+	box-shadow: rgba(21, 17, 227, 0.354) 0px 5px 15px;
+	background-color: rgb(15, 14, 15);
+	padding: 30px;
+	width: 9rem;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Businness section */
+.satellite {
+	border: 1px solid black;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	box-shadow: rgba(21, 17, 227, 0.354) 0px 5px 15px;
+	background-color: rgb(15, 14, 15);
+}
+
+#satellites-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-bottom: 20px;
+	/* border: 1px solid #ddd; */
+	border-radius: 5px;
+	padding: 10px;
+	align-items: center;
+}
+.satelite-center {
+	/* background: #f4f4f4; */
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/* border: 2px solid red; */
+	flex-direction: row;
+	text-align: center;
+}
+#satellites-container h3 {
+	color: #f778ff;
+}
